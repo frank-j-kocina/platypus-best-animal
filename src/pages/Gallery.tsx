@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 export const images = [
   {
     id: 1,
-    url: '/images/platypus1.jpeg',
+    url: '/images/image.png',
     title: 'Platypus Swimming',
     caption: 'A platypus gracefully gliding through the water',
     description: 'This magnificent platypus showcases its streamlined body design perfectly adapted for aquatic life. Notice the dense, waterproof fur that keeps them warm even in cold mountain streams. Their webbed feet act as powerful paddles, while their broad tail serves as a rudder for precise maneuvering through the water.'
@@ -18,7 +18,7 @@ export const images = [
   },
   {
     id: 3,
-    url: '/images/platypus3.webp',
+    url: '/images/image2.png',
     title: 'On the Riverbank',
     caption: 'A platypus emerging from its burrow near the water',
     description: 'Platypuses are most active during dawn and dusk, spending much of their day resting in burrows they dig into riverbanks. These burrows can be quite extensive, with tunnels reaching up to 30 meters long. The entrance is typically just above the waterline, providing easy access for foraging trips.'
@@ -54,13 +54,12 @@ function Gallery() {
 
   return (
     <div className="page-content">
-      <h1>The Puggle Paparazzi</h1>
+      <h1>Pictures for Your Project</h1>
 
       <section className="content-section">
-        <h2>Caught on Camera!</h2>
+        <h2>Photo Gallery</h2>
         <p className="page-intro">
-          A picture is worth a thousand words, especially when the subject is this cute.
-          Browse our collection of Club Puggle favorites below.
+          Need a picture for your poster? Check out our gallery!
         </p>
       </section>
 

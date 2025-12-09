@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 function Layout({ children }: { children: React.ReactNode }) {
   const navigationLinks = [
     { title: 'Home', path: '/' },
-    { title: 'Gallery', path: '/gallery' },
-    { title: 'Submit Photo', path: '/submit-photo' },
     { title: 'Diet', path: '/diet' },
     { title: 'Mating', path: '/mating' },
     { title: 'Habitat', path: '/habitat' },
@@ -23,7 +21,7 @@ function Layout({ children }: { children: React.ReactNode }) {
           <div className="header-title">
             <Link to="/" className="title-link">
               <h1>Club Puggle</h1>
-              <p className="subtitle">The Internet's #1 Fan Zone for the Platypus</p>
+              <p className="subtitle">Your Educational Resource for Learning About the Platypus</p>
             </Link>
           </div>
         </div>

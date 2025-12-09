@@ -1,78 +1,105 @@
 function Anatomy() {
   return (
     <div className="page-content">
-      <h1>Built Like a Puzzle</h1>
+      <h1>What Do They Look Like?</h1>
 
       <section className="content-section">
-        <h2>A Duck, A Beaver, and An Otter Walk into a Bar...</h2>
+        <h2>Body Parts & Features</h2>
         <p>
-          It looks like a prank, but the anatomy of the platypus is a marvel of evolution.
-          Here are the specs on nature's most unique build:
+          Here are the important parts of the platypus to label on your diagram:
+        </p>
+        <img
+          src="/images/anatomy.png"
+          alt="Labeled diagram of platypus anatomy showing bill, tail, fur, and feet"
+          style={{ width: '100%', maxWidth: '800px', margin: '1.5rem auto', display: 'block' }}
+        />
+      </section>
+
+      <section className="content-section">
+        <h3>The Bill</h3>
+        <p>
+          It looks like a duck's beak, but it is soft and rubbery (like a sneaker sole!).
+          It helps them feel for food underwater.
+        </p>
+      </section>
+
+      <section className="content-section">
+        <h3>The Tail</h3>
+        <p>
+          It looks like a beaver's tail. It stores fat to give them energy.
+        </p>
+      </section>
+
+      <section className="content-section">
+        <h3>The Fur</h3>
+        <p>
+          It is dark brown, thick, and waterproof. It works like a wetsuit to keep them warm.
+        </p>
+      </section>
+
+      <section className="content-section">
+        <h3>The Feet</h3>
+        <p>
+          They have webbed feet for swimming. When they walk on land, the webs fold back so
+          they can use their claws to dig.
         </p>
       </section>
 
       <section className="content-section">
         <h2>The Stats</h2>
-        <ul>
-          <li>
-            <strong>Size:</strong> They typically grow to about 40–50 cm (15–20 inches) long.
-            That's roughly the size of a house cat or small dog!
-          </li>
-          <li>
-            <strong>Weight:</strong> Ranging from 0.7 kg to 2.4 kg (1.5–5.3 lbs), with males
-            generally being larger than females. About the weight of a pineapple or a bag of sugar.
-          </li>
-          <li>
-            <strong>Lifespan:</strong> In the wild, they can live up to 12 years. In captivity,
-            they've been known to reach the ripe old age of 17!
-          </li>
-        </ul>
-      </section>
 
-      <section className="content-section">
-        <h2>Relative Size Comparisons</h2>
-        <p>
-          To put their size in perspective:
-        </p>
-        <ul>
-          <li><strong>Length:</strong> Similar to a large ruler or a small skateboard</li>
-          <li><strong>Weight:</strong> About the same as 3-4 cans of soda or a small laptop</li>
-          <li><strong>Body:</strong> Comparable to a football (American) in girth when swimming</li>
-          <li><strong>Bill:</strong> About 7-8 cm long, roughly the size of a credit card</li>
-          <li><strong>Tail:</strong> 10-15 cm, similar to a dollar bill's length</li>
-        </ul>
-        <p>
-          Males are typically 30% larger than females, making them about the size of a small
-          terrier dog, while females are closer to the size of a large guinea pig.
-        </p>
-      </section>
+        <div className="stats-grid">
+          <div className="stat-box">
+            <h3>Length</h3>
+            <p>They typically grow to about 40–50 cm (15–20 inches) long.</p>
 
-      <section className="content-section">
-        <h2>Superpowers & Features</h2>
+            <div className="comparison-box">
+              <p className="comparison-title">About the size of:</p>
+              <div className="comparison-items">
+                <div className="comparison-item">
+                  <span className="comparison-emoji">💻</span>
+                  <p className="comparison-label">Laptop<br />(15")</p>
+                </div>
+                <div className="comparison-item">
+                  <span className="comparison-emoji">🥖</span>
+                  <p className="comparison-label">Baguette<br />(17")</p>
+                </div>
+                <div className="comparison-item">
+                  <span className="comparison-emoji">🧳</span>
+                  <p className="comparison-label">Carry-on<br />(20")</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <h3>The Bill</h3>
-        <p>
-          It's not hard like a bird's beak! It's actually rubbery and soft, acting as a sensory
-          organ to detect prey.
-        </p>
+          <div className="stat-box">
+            <h3>Weight</h3>
+            <p>Ranging from 0.7 kg to 2.4 kg (1.5–5.3 lbs), with males generally being larger than females.</p>
 
-        <h3>The Coat</h3>
-        <p>
-          Their dense, waterproof fur has two layers to keep them warm and dry, even after hours
-          in chilly river water.
-        </p>
+            <div className="comparison-box">
+              <p className="comparison-title">About the weight of:</p>
+              <div className="comparison-items">
+                <div className="comparison-item">
+                  <span className="comparison-emoji">📕</span>
+                  <p className="comparison-label">Hardcover<br />book (2 lbs)</p>
+                </div>
+                <div className="comparison-item">
+                  <span className="comparison-emoji">🍍</span>
+                  <p className="comparison-label">Pineapple<br />(4 lbs)</p>
+                </div>
+                <div className="comparison-item">
+                  <span className="comparison-emoji">🐱</span>
+                  <p className="comparison-label">Small cat<br />(5 lbs)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <h3>The Breath</h3>
-        <p>
-          Even though they are master swimmers, they are mammals and breathe air using lungs.
-          They hold their breath while diving, usually for 30-60 seconds at a time.
-        </p>
-
-        <h3>Danger Mode</h3>
-        <p>
-          Watch out for the males! They possess a hollow spur on their hind ankles connected to
-          a venom gland. It's their secret weapon against rivals.
-        </p>
+        <div className="stat-full">
+          <h3>Lifespan</h3>
+          <p>In the wild, they can live up to 12 years. In captivity, they've been known to reach the ripe old age of 17!</p>
+        </div>
       </section>
     </div>
   )
