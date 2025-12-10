@@ -91,14 +91,6 @@ function CoolFacts() {
     )
   }
 
-  const getCategoryEmoji = (category: string) => {
-    if (category.includes('Mind-Blowing')) return '🧠'
-    if (category.includes('Danger')) return '⚠️'
-    if (category.includes('Time Travelers')) return '🦕'
-    if (category.includes('Cute')) return '🦦'
-    return ''
-  }
-
   return (
     <div className="page-content">
       <h1>Cool Facts</h1>
@@ -117,10 +109,6 @@ function CoolFacts() {
           >
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <div className="card-category">
-                  <span className="category-emoji">{getCategoryEmoji(fact.category)}</span>
-                  <span className="category-text">{fact.category}</span>
-                </div>
                 <h3 className="card-title">{fact.front}</h3>
                 <p className="card-hint">Click to reveal!</p>
               </div>
