@@ -157,12 +157,8 @@ function Presentation() {
   }
 
   const handleSubmit = () => {
-    if (Object.keys(selectedAnswers).length === questions.length) {
-      setSubmitted(true)
-      window.scrollTo({ top: 0, behavior: 'smooth' })
-    } else {
-      alert('Please answer all questions before submitting!')
-    }
+    setSubmitted(true)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const resetQuiz = () => {
@@ -178,13 +174,15 @@ function Presentation() {
     }).length
   }
 
+  const getAnsweredCount = () => {
+    return Object.keys(selectedAnswers).length
+  }
+
   const isCorrect = (questionId: number) => {
     const question = questions.find(q => q.id === questionId)
     const selected = selectedAnswers[questionId]
     return selected && question && selected.startsWith(question.correctLetter)
   }
-
-  const allAnswered = Object.keys(selectedAnswers).length === questions.length
 
   return (
     <div className="page-content">
@@ -194,19 +192,30 @@ function Presentation() {
         <div className="quiz-results">
           <h2>Quiz Results</h2>
           <p className="score-display">
-            You got {getScore()} out of {questions.length} correct!
+            You got {getScore()} out of {getAnsweredCount()} correct!
           </p>
-          {getScore() === questions.length && (
+          {getAnsweredCount() < questions.length && (
+            <p className="skipped-notice">
+              You skipped {questions.length - getAnsweredCount()} question{questions.length - getAnsweredCount() !== 1 ? 's' : ''}
+            </p>
+          )}
+          {getScore() === getAnsweredCount() && getAnsweredCount() > 0 && (
+            <p className="perfect-score">Perfect score on the questions you answered!</p>
+          )}
+          {getAnsweredCount() === questions.length && getScore() === questions.length && (
             <p className="perfect-score">Perfect score! You're a platypus expert!</p>
           )}
-          {getScore() >= questions.length * 0.7 && getScore() < questions.length && (
+          {getScore() >= getAnsweredCount() * 0.7 && getScore() < getAnsweredCount() && getAnsweredCount() > 0 && (
             <p className="good-score">Great job! You know a lot about platypuses!</p>
           )}
-          {getScore() < questions.length * 0.7 && getScore() >= questions.length * 0.4 && (
+          {getScore() < getAnsweredCount() * 0.7 && getScore() >= getAnsweredCount() * 0.4 && getAnsweredCount() > 0 && (
             <p className="okay-score">Not bad! Keep learning about these amazing animals!</p>
           )}
-          {getScore() < questions.length * 0.4 && (
+          {getScore() < getAnsweredCount() * 0.4 && getAnsweredCount() > 0 && (
             <p className="low-score">Keep trying! Read through the facts to learn more!</p>
+          )}
+          {getAnsweredCount() === 0 && (
+            <p className="no-answers">You didn't answer any questions! Give it a try!</p>
           )}
         </div>
       ) : (
@@ -222,7 +231,7 @@ function Presentation() {
           const selectedLetter = selected ? selected.charAt(0) : ''
 
           return (
-            <div key={q.id} className={`quiz-question ${submitted ? (isAnswerCorrect ? 'correct' : 'incorrect') : ''}`}>
+            <div key={q.id} className={`quiz-question ${submitted ? (!selected ? 'skipped' : isAnswerCorrect ? 'correct' : 'incorrect') : ''}`}>
               <h3 className="question-number">Question {q.id}</h3>
               <p className="question-text">{q.question}</p>
               <ul className="options-list">
@@ -249,8 +258,16 @@ function Presentation() {
               </ul>
 
               {submitted && (
-                <div className={`answer-section ${isAnswerCorrect ? 'correct-answer-section' : 'wrong-answer-section'}`}>
-                  {isAnswerCorrect ? (
+                <div className={`answer-section ${!selected ? 'skipped-answer-section' : isAnswerCorrect ? 'correct-answer-section' : 'wrong-answer-section'}`}>
+                  {!selected ? (
+                    <>
+                      <p className="feedback-skipped">You skipped this question</p>
+                      <p className="correct-answer-reveal">
+                        <strong>The correct answer is:</strong> {q.correctAnswer}
+                      </p>
+                      <p className="explanation">{q.explanation}</p>
+                    </>
+                  ) : isAnswerCorrect ? (
                     <>
                       <p className="feedback-correct">Correct!</p>
                       <p className="explanation">{q.explanation}</p>
@@ -275,11 +292,10 @@ function Presentation() {
       <div className="floating-submit">
         {!submitted ? (
           <button
-            className={`submit-quiz-button ${allAnswered ? 'ready' : 'disabled'}`}
+            className="submit-quiz-button ready"
             onClick={handleSubmit}
-            disabled={!allAnswered}
           >
-            {allAnswered ? 'Submit Answers' : `Answer All Questions (${Object.keys(selectedAnswers).length}/${questions.length})`}
+            Submit Answers ({Object.keys(selectedAnswers).length}/{questions.length})
           </button>
         ) : (
           <button
