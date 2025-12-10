@@ -115,7 +115,7 @@ function Anatomy() {
               <li>Fur — keeps warm!</li>
             </ul>
           </li>
-          <li>The student can use the puppet while presenting.</li>
+          <li>Try using the puppet while presenting.</li>
         </ul>
       </section>
     </div>

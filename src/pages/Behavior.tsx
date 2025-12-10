@@ -52,7 +52,7 @@ function Behavior() {
             </ul>
           </li>
           <li>Add drawings and a "fun fact" on each card.</li>
-          <li>The child can show cards one by one during the presentation.</li>
+          <li>Show cards one by one during the presentation to help your classmates follow along.</li>
         </ul>
       </section>
     </div>

@@ -64,7 +64,7 @@ function Classification() {
             </ul>
           </li>
           <li>Reveal the answer: "It's a mammal called a monotreme!"</li>
-          <li>Kids can pin "evidence cards" like a detective solving an animal mystery.</li>
+          <li>Pin "evidence cards" like a detective solving an animal mystery.</li>
         </ul>
       </section>
     </div>
