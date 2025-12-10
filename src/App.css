@@ -872,3 +872,28 @@ body {
     font-size: 2rem;
   }
 }
+
+.pop-culture-item {
+  background: #faf8f3;
+  border-left: 4px solid #4F4B1E;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.pop-culture-item h3 {
+  color: #0A0402;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.pop-culture-item p {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.pop-culture-item p:last-child {
+  margin-bottom: 0;
+}

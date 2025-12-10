@@ -10,6 +10,7 @@ import Habitat from './pages/Habitat'
 import Classification from './pages/Classification'
 import Anatomy from './pages/Anatomy'
 import Behavior from './pages/Behavior'
+import PopCulture from './pages/PopCulture'
 import './App.css'
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/classification" element={<Classification />} />
           <Route path="/anatomy" element={<Anatomy />} />
           <Route path="/behavior" element={<Behavior />} />
+          <Route path="/pop-culture" element={<PopCulture />} />
         </Routes>
       </Layout>
     </BrowserRouter>

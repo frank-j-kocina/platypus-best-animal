@@ -9,6 +9,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     { title: 'Classification', path: '/classification' },
     { title: 'Anatomy', path: '/anatomy' },
     { title: 'Behavior', path: '/behavior' },
+    { title: 'Pop Culture', path: '/pop-culture' },
   ]
 
   return (
