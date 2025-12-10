@@ -10,6 +10,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     { title: 'Anatomy', path: '/anatomy' },
     { title: 'Behavior', path: '/behavior' },
     { title: 'Cool Facts', path: '/cool-facts' },
+    { title: 'Pop Culture', path: '/pop-culture' },
   ]
 
   return (

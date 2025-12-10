@@ -11,6 +11,7 @@ import Classification from './pages/Classification'
 import Anatomy from './pages/Anatomy'
 import Behavior from './pages/Behavior'
 import CoolFacts from './pages/CoolFacts'
+import PopCulture from './pages/PopCulture'
 import './App.css'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path="/anatomy" element={<Anatomy />} />
           <Route path="/behavior" element={<Behavior />} />
           <Route path="/cool-facts" element={<CoolFacts />} />
+          <Route path="/pop-culture" element={<PopCulture />} />
         </Routes>
       </Layout>
     </BrowserRouter>
