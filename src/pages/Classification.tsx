@@ -10,7 +10,7 @@ function Classification() {
           But it is actually its own special kind of creature.
         </p>
         <img
-          src="/images/classification.png"
+          src={`${import.meta.env.BASE_URL}images/classification.png`}
           alt="Diagram showing platypus classification and characteristics"
           style={{ width: '100%', maxWidth: '700px', margin: '1.5rem auto', display: 'block' }}
         />

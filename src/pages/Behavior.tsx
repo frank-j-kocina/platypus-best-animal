@@ -26,7 +26,7 @@ function Behavior() {
           They use it to protect their territory.
         </p>
         <img
-          src="/images/venom.png"
+          src={`${import.meta.env.BASE_URL}images/venom.png`}
           alt="Diagram showing the venomous spur on male platypus hind leg"
           style={{ width: '100%', maxWidth: '600px', margin: '1.5rem auto', display: 'block' }}
         />

@@ -4,28 +4,28 @@ import { useState, useEffect } from 'react'
 export const images = [
   {
     id: 1,
-    url: '/images/image.png',
+    url: `${import.meta.env.BASE_URL}images/image.png`,
     title: 'Platypus Swimming',
     caption: 'A platypus gracefully gliding through the water',
     description: 'This magnificent platypus showcases its streamlined body design perfectly adapted for aquatic life. Notice the dense, waterproof fur that keeps them warm even in cold mountain streams. Their webbed feet act as powerful paddles, while their broad tail serves as a rudder for precise maneuvering through the water.'
   },
   {
     id: 2,
-    url: '/images/platypus2.jpeg',
+    url: `${import.meta.env.BASE_URL}images/platypus2.jpeg`,
     title: 'Bill Close-Up',
     caption: 'The distinctive duck-like bill that makes the platypus famous',
     description: 'The platypus bill is not hard like a duck\'s beak, but soft and rubbery, covered with thousands of electroreceptors. These specialized sensors allow the platypus to detect the electrical signals produced by the muscle contractions of their prey, making them expert hunters even with their eyes closed underwater.'
   },
   {
     id: 3,
-    url: '/images/image2.png',
+    url: `${import.meta.env.BASE_URL}images/image2.png`,
     title: 'On the Riverbank',
     caption: 'A platypus emerging from its burrow near the water',
     description: 'Platypuses are most active during dawn and dusk, spending much of their day resting in burrows they dig into riverbanks. These burrows can be quite extensive, with tunnels reaching up to 30 meters long. The entrance is typically just above the waterline, providing easy access for foraging trips.'
   },
   {
     id: 4,
-    url: '/images/platypus4.webp',
+    url: `${import.meta.env.BASE_URL}images/platypus4.webp`,
     title: 'In Natural Habitat',
     caption: 'Swimming in the freshwater streams of Eastern Australia',
     description: 'The platypus inhabits freshwater systems along the eastern coast of Australia and Tasmania. They prefer clean, flowing streams with stable banks for burrowing. These remarkable creatures are considered a key indicator species for waterway health, as they require pristine aquatic environments to thrive.'

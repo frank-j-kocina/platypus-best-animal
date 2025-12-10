@@ -26,7 +26,7 @@ function Home() {
 
           <div className="home-image">
             <img
-              src="/images/platypus-hero.jpg"
+              src={`${import.meta.env.BASE_URL}images/platypus-hero.jpg`}
               alt="Platypus in natural habitat"
               className="home-photo"
             />

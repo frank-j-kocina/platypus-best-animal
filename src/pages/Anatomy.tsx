@@ -9,7 +9,7 @@ function Anatomy() {
           Here are the important parts of the platypus to label on your diagram:
         </p>
         <img
-          src="/images/anatomy.png"
+          src={`${import.meta.env.BASE_URL}images/anatomy.png`}
           alt="Labeled diagram of platypus anatomy showing bill, tail, fur, and feet"
           style={{ width: '100%', maxWidth: '800px', margin: '1.5rem auto', display: 'block' }}
         />

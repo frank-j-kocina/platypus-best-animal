@@ -23,7 +23,7 @@ function Habitat() {
           They live in <strong>Freshwater</strong> rivers, lakes, and streams.
         </p>
         <img
-          src="/images/platypus4.webp"
+          src={`${import.meta.env.BASE_URL}images/platypus4.webp`}
           alt="Platypus in its natural freshwater habitat"
           style={{ width: '100%', maxWidth: '600px', margin: '1.5rem auto', display: 'block', borderRadius: '12px' }}
         />
@@ -36,7 +36,7 @@ function Habitat() {
           safe and dry when they aren't swimming.
         </p>
         <img
-          src="/images/image2.png"
+          src={`${import.meta.env.BASE_URL}images/image2.png`}
           alt="Platypus on the riverbank near its burrow"
           style={{ width: '100%', maxWidth: '600px', margin: '1.5rem auto', display: 'block' }}
         />

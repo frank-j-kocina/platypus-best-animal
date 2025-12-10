@@ -16,7 +16,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <header className="header">
         <div className="header-top">
           <Link to="/" className="logo-link">
-            <img src="/images/Logo.svg" alt="Club Puggle Logo" className="site-logo" />
+            <img src={`${import.meta.env.BASE_URL}images/Logo.svg`} alt="Club Puggle Logo" className="site-logo" />
           </Link>
           <div className="header-title">
             <Link to="/" className="title-link">

@@ -31,7 +31,7 @@ function Mating() {
           and has no hair.
         </p>
         <img
-          src="/images/puggle.png"
+          src={`${import.meta.env.BASE_URL}images/puggle.png`}
           alt="Baby platypus puggle"
           style={{ width: '100%', maxWidth: '600px', margin: '1.5rem auto', display: 'block' }}
         />
