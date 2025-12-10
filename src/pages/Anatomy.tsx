@@ -1,7 +1,7 @@
 function Anatomy() {
   return (
     <div className="page-content">
-      <h1>What Do They Look Like?</h1>
+      <h1>How Do They Look?</h1>
 
       <section className="content-section">
         <h2>Body Parts & Features</h2>

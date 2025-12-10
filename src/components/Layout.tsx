@@ -1,16 +1,17 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 function Layout({ children }: { children: React.ReactNode }) {
+  const location = useLocation()
   const navigationLinks = [
-    { title: 'Home', path: '/' },
-    { title: 'Diet', path: '/diet' },
-    { title: 'Mating', path: '/mating' },
-    { title: 'Habitat', path: '/habitat' },
-    { title: 'Classification', path: '/classification' },
-    { title: 'Anatomy', path: '/anatomy' },
-    { title: 'Behavior', path: '/behavior' },
+    { title: 'Home Base', path: '/' },
+    { title: 'What Am I?', path: '/classification' },
+    { title: 'Where Do They Live?', path: '/habitat' },
+    { title: 'How Do They Look?', path: '/anatomy' },
+    { title: "What's for Lunch?", path: '/diet' },
+    { title: 'Baby Puggles!', path: '/mating' },
+    { title: 'Superpowers & Skills', path: '/behavior' },
     { title: 'Cool Facts', path: '/cool-facts' },
-    { title: 'Pop Culture', path: '/pop-culture' },
+    { title: 'Famous Faces', path: '/pop-culture' },
   ]
 
   return (
@@ -32,7 +33,10 @@ function Layout({ children }: { children: React.ReactNode }) {
           <ul className="nav-menu">
             {navigationLinks.map((link) => (
               <li key={link.path}>
-                <Link to={link.path} className="nav-item">
+                <Link
+                  to={link.path}
+                  className={`nav-item ${location.pathname === link.path ? 'active' : ''}`}
+                >
                   {link.title}
                 </Link>
               </li>

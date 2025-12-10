@@ -1,7 +1,7 @@
 function Behavior() {
   return (
     <div className="page-content">
-      <h1>Cool Powers</h1>
+      <h1>Superpowers & Skills</h1>
 
       <section className="content-section">
         <h2>How They Sense the World</h2>

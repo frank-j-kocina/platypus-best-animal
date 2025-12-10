@@ -1,7 +1,7 @@
 function Mating() {
   return (
     <div className="page-content">
-      <h1>From Egg to Adult</h1>
+      <h1>Baby Puggles!</h1>
 
       <section className="content-section">
         <h2>Baby Platypuses</h2>
