@@ -64,11 +64,20 @@ function Diet() {
       </section>
 
       <section className="content-section">
-        <h2>Project Tip</h2>
-        <p>
-          For your presentation, you can draw a pie chart showing the percentages of each food type.
-          Make sure to label each prey item with its name and percentage!
-        </p>
+        <h2>🥗 Presentation Idea: "Platypus Chef Menu"</h2>
+        <p><strong>Idea:</strong> Create a restaurant menu showing what a platypus eats.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Draw a menu titled "The Muddy River Café — Platypus Specials."</li>
+          <li>Include dishes like:
+            <ul>
+              <li>"Wiggly Worm Spaghetti"</li>
+              <li>"Crayfish Crunch Wrap"</li>
+              <li>"Insect Nugget Bites"</li>
+            </ul>
+          </li>
+          <li>Add simple pictures and fun descriptions, e.g., "Yum! Perfect for a hungry platypus hunting at night."</li>
+        </ul>
       </section>
     </div>
   )

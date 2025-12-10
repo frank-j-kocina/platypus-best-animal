@@ -103,11 +103,20 @@ function Anatomy() {
       </section>
 
       <section className="content-section">
-        <h2>Project Tip</h2>
-        <p>
-          When drawing or labeling your platypus diagram, make sure to include all the main parts:
-          the bill, webbed feet, beaver-like tail, and waterproof fur. Color it dark brown!
-        </p>
+        <h2>🦴 Presentation Idea: "Platypus Paper Bag Puppet With Labels"</h2>
+        <p><strong>Idea:</strong> Make a paper bag platypus puppet and add labeled parts.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Glue on shapes for the bill, tail, webbed feet.</li>
+          <li>On the back of the puppet, add easy labels like:
+            <ul>
+              <li>Bill — helps sense underwater!</li>
+              <li>Webbed feet — great for swimming!</li>
+              <li>Fur — keeps warm!</li>
+            </ul>
+          </li>
+          <li>The student can use the puppet while presenting.</li>
+        </ul>
       </section>
     </div>
   )

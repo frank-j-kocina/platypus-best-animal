@@ -40,11 +40,20 @@ function Behavior() {
       </section>
 
       <section className="content-section">
-        <h2>Project Tip</h2>
-        <p>
-          Electroreception is a big vocabulary word for your quiz! You can explain it by saying
-          the platypus finds food using electricity, like having a superpower to sense prey underwater.
-        </p>
+        <h2>🧠 Presentation Idea: "Platypus Superpowers Trading Cards"</h2>
+        <p><strong>Idea:</strong> Create trading cards for different behaviors.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Each card shows a "superpower," like:
+            <ul>
+              <li>Electrolocation — "Can sense electricity from wiggly prey!"</li>
+              <li>Night Hunter — "Active at night!"</li>
+              <li>Burrow Builder — "Makes long tunnels."</li>
+            </ul>
+          </li>
+          <li>Add drawings and a "fun fact" on each card.</li>
+          <li>The child can show cards one by one during the presentation.</li>
+        </ul>
       </section>
     </div>
   )
