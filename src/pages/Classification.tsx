@@ -48,6 +48,14 @@ function Classification() {
           The only other animal in this family is the Echidna.
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>Project Tip</h2>
+        <p>
+          Remember to write the scientific name "Ornithorhynchus anatinus" in italics or underlined.
+          You can also create a comparison chart showing how the platypus is different from regular mammals!
+        </p>
+      </section>
     </div>
   )
 }

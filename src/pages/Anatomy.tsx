@@ -101,6 +101,14 @@ function Anatomy() {
           <p>In the wild, they can live up to 12 years. In captivity, they've been known to reach the ripe old age of 17!</p>
         </div>
       </section>
+
+      <section className="content-section">
+        <h2>Project Tip</h2>
+        <p>
+          When drawing or labeling your platypus diagram, make sure to include all the main parts:
+          the bill, webbed feet, beaver-like tail, and waterproof fur. Color it dark brown!
+        </p>
+      </section>
     </div>
   )
 }

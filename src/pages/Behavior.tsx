@@ -38,6 +38,14 @@ function Behavior() {
           They sleep a lot—up to 14 hours a day!
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>Project Tip</h2>
+        <p>
+          Electroreception is a big vocabulary word for your quiz! You can explain it by saying
+          the platypus finds food using electricity, like having a superpower to sense prey underwater.
+        </p>
+      </section>
     </div>
   )
 }

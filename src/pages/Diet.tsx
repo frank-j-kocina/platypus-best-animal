@@ -62,6 +62,14 @@ function Diet() {
           Once they surface, they use the gravel to "chew" the food using grinding pads (since they have no teeth!).
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>Project Tip</h2>
+        <p>
+          For your presentation, you can draw a pie chart showing the percentages of each food type.
+          Make sure to label each prey item with its name and percentage!
+        </p>
+      </section>
     </div>
   )
 }

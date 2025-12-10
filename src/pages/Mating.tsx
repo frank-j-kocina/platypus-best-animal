@@ -44,6 +44,14 @@ function Mating() {
           is ready to swim!
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>Project Tip</h2>
+        <p>
+          Try drawing a life cycle diagram showing all the stages: egg, tiny puggle (jellybean size),
+          growing puggle, and adult platypus. Use arrows to show the order!
+        </p>
+      </section>
     </div>
   )
 }
