@@ -130,6 +130,12 @@ body {
   border-bottom-color: white;
 }
 
+.nav-item.active {
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border-bottom-color: white;
+}
+
 .main-content {
   max-width: 1400px;
   margin: 0 auto;

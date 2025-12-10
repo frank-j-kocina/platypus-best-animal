@@ -1,7 +1,7 @@
 function Diet() {
   return (
     <div className="page-content">
-      <h1>What's for Dinner?</h1>
+      <h1>What's for Lunch?</h1>
 
       <section className="content-section">
         <p style={{ fontSize: '1.1rem', marginBottom: '2.5rem' }}>
