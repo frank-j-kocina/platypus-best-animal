@@ -43,11 +43,20 @@ function Habitat() {
       </section>
 
       <section className="content-section">
-        <h2>Project Tip</h2>
-        <p>
-          If you are drawing a habitat poster, make sure to draw a river with a muddy bank and
-          lots of tree roots!
-        </p>
+        <h2>🌏 Presentation Idea: "Build a Shoebox Riverbank"</h2>
+        <p><strong>Idea:</strong> Create a 3D diorama of a platypus environment.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Use a shoebox to make:
+            <ul>
+              <li>A blue river using construction paper or foil</li>
+              <li>A muddy bank using brown paper</li>
+              <li>A burrow tunnel made of a paper towel tube</li>
+            </ul>
+          </li>
+          <li>Add a little clay or paper platypus.</li>
+          <li>Label parts: "Burrow," "River," "Hunting Area."</li>
+        </ul>
       </section>
     </div>
   )

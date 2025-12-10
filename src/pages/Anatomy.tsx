@@ -101,6 +101,23 @@ function Anatomy() {
           <p>In the wild, they can live up to 12 years. In captivity, they've been known to reach the ripe old age of 17!</p>
         </div>
       </section>
+
+      <section className="content-section">
+        <h2>🦴 Presentation Idea: "Platypus Paper Bag Puppet With Labels"</h2>
+        <p><strong>Idea:</strong> Make a paper bag platypus puppet and add labeled parts.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Glue on shapes for the bill, tail, webbed feet.</li>
+          <li>On the back of the puppet, add easy labels like:
+            <ul>
+              <li>Bill — helps sense underwater!</li>
+              <li>Webbed feet — great for swimming!</li>
+              <li>Fur — keeps warm!</li>
+            </ul>
+          </li>
+          <li>Try using the puppet while presenting.</li>
+        </ul>
+      </section>
     </div>
   )
 }

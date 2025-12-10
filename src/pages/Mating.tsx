@@ -44,6 +44,24 @@ function Mating() {
           is ready to swim!
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>💕 Presentation Idea: "Platypus Love Timeline"</h2>
+        <p><strong>Idea:</strong> Make a simple timeline poster showing the steps from meeting to babies.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Start with springtime and draw two platypuses swimming.</li>
+          <li>Add arrows and short captions like:
+            <ul>
+              <li>"Mom builds a safe burrow."</li>
+              <li>"She lays 1–3 eggs!"</li>
+              <li>"Eggs hatch in 10 days."</li>
+              <li>"Babies drink milk from mom."</li>
+            </ul>
+          </li>
+          <li>Use soft colors and doodles so it stays age-appropriate and not too biological.</li>
+        </ul>
+      </section>
     </div>
   )
 }

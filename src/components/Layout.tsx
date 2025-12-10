@@ -10,6 +10,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     { title: "What's for Lunch?", path: '/diet' },
     { title: 'Baby Puggles!', path: '/mating' },
     { title: 'Superpowers & Skills', path: '/behavior' },
+    { title: 'Cool Facts', path: '/cool-facts' },
     { title: 'Famous Faces', path: '/pop-culture' },
   ]
 

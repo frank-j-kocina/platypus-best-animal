@@ -38,6 +38,23 @@ function Behavior() {
           They sleep a lot—up to 14 hours a day!
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>🧠 Presentation Idea: "Platypus Superpowers Trading Cards"</h2>
+        <p><strong>Idea:</strong> Create trading cards for different behaviors.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Each card shows a "superpower," like:
+            <ul>
+              <li>Electrolocation — "Can sense electricity from wiggly prey!"</li>
+              <li>Night Hunter — "Active at night!"</li>
+              <li>Burrow Builder — "Makes long tunnels."</li>
+            </ul>
+          </li>
+          <li>Add drawings and a "fun fact" on each card.</li>
+          <li>Show cards one by one during the presentation to help your classmates follow along.</li>
+        </ul>
+      </section>
     </div>
   )
 }

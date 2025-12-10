@@ -62,6 +62,23 @@ function Diet() {
           Once they surface, they use the gravel to "chew" the food using grinding pads (since they have no teeth!).
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>🥗 Presentation Idea: "Platypus Chef Menu"</h2>
+        <p><strong>Idea:</strong> Create a restaurant menu showing what a platypus eats.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Draw a menu titled "The Muddy River Café — Platypus Specials."</li>
+          <li>Include dishes like:
+            <ul>
+              <li>"Wiggly Worm Spaghetti"</li>
+              <li>"Crayfish Crunch Wrap"</li>
+              <li>"Insect Nugget Bites"</li>
+            </ul>
+          </li>
+          <li>Add simple pictures and fun descriptions, e.g., "Yum! Perfect for a hungry platypus hunting at night."</li>
+        </ul>
+      </section>
     </div>
   )
 }

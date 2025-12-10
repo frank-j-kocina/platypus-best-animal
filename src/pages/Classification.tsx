@@ -48,6 +48,25 @@ function Classification() {
           The only other animal in this family is the Echidna.
         </p>
       </section>
+
+      <section className="content-section">
+        <h2>🧬 Presentation Idea: "Platypus: The Detective Mystery"</h2>
+        <p><strong>Idea:</strong> Present why the platypus confused scientists using a "What am I?" detective board.</p>
+        <p><strong>How to do it:</strong></p>
+        <ul>
+          <li>Make a poster titled "The Case of the Weird Animal!"</li>
+          <li>Include clues:
+            <ul>
+              <li>Bill like a duck</li>
+              <li>Tail like a beaver</li>
+              <li>Lays eggs like a reptile</li>
+              <li>Furry like a mammal</li>
+            </ul>
+          </li>
+          <li>Reveal the answer: "It's a mammal called a monotreme!"</li>
+          <li>Pin "evidence cards" like a detective solving an animal mystery.</li>
+        </ul>
+      </section>
     </div>
   )
 }
