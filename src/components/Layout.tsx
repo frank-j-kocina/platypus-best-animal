@@ -12,6 +12,7 @@ function Layout({ children }: { children: React.ReactNode }) {
     { title: 'Superpowers & Skills', path: '/behavior' },
     { title: 'Cool Facts', path: '/cool-facts' },
     { title: 'Famous Faces', path: '/pop-culture' },
+    { title: 'Take the Quiz!', path: '/presentation' },
   ]
 
   return (

@@ -12,6 +12,7 @@ import Anatomy from './pages/Anatomy'
 import Behavior from './pages/Behavior'
 import CoolFacts from './pages/CoolFacts'
 import PopCulture from './pages/PopCulture'
+import Presentation from './pages/Presentation'
 import './App.css'
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/behavior" element={<Behavior />} />
           <Route path="/cool-facts" element={<CoolFacts />} />
           <Route path="/pop-culture" element={<PopCulture />} />
+          <Route path="/presentation" element={<Presentation />} />
         </Routes>
       </Layout>
     </BrowserRouter>

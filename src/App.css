@@ -844,6 +844,12 @@ body {
   opacity: 0.9;
 }
 
+.card-emoji {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
 .card-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -1033,4 +1039,97 @@ body {
 
 .pop-culture-item p:last-child {
   margin-bottom: 0;
+}
+
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quiz-question {
+  background: #faf8f3;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #4F4B1E;
+}
+
+.question-number {
+  color: #4F4B1E;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 0.75rem 0;
+}
+
+.question-text {
+  color: #0A0402;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.5;
+}
+
+.options-list {
+  list-style: none;
+  margin: 0 0 1.5rem 0;
+  padding: 0;
+}
+
+.options-list li {
+  background: white;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid #e0e0d8;
+  color: #3a3a35;
+  font-size: 1.05rem;
+  transition: all 0.2s ease;
+}
+
+.options-list li:hover {
+  border-color: #4F4B1E;
+  background: #f7f7f5;
+}
+
+.reveal-button {
+  background: linear-gradient(135deg, #4F4B1E 0%, #312E1B 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  font-family: 'Platypi', serif;
+}
+
+.reveal-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+}
+
+.answer-section {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #e8f5e9;
+  border-radius: 12px;
+  border-left: 4px solid #4CAF50;
+}
+
+.correct-answer {
+  color: #2e7d32;
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.explanation {
+  color: #1b5e20;
+  font-size: 1.05rem;
+  margin: 0;
+  line-height: 1.6;
 }
